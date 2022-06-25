@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+/* General */
+
+html {
+    border-radius: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-align: center;
+    background-image: url('../../images/nature.jpg');
+    background-repeat: no-repeat;
+    background-position: cover;
+    overflow: hidden
+}
+
+/* Nav and Forms */
+
+.nav {
+    
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+textarea {
+    overflow: auto;
+}
+
+/* Main */
+
+#Time {
+    font-size: 200px;
+}
+
+#application_bar {
+    list-style: none;
+}
+
+.appImg {
+    object-fit: contain;
+}
+
+

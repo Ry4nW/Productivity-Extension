@@ -1,17 +1,29 @@
 {
   "manifest_version": 3,
+  "permissions": ["storage", "activeTab", "scripting"],
   "name": "Productivity Extension",
   "version": "1.0",
   "description": "A new tab extension for all your productivity needs.",
   "author": "Ryan Wang",
-  
-  "chrome_url_overrides" : {
-    "newtab": "index.html"
+
+  "background": {
+    "service_worker": "background.js"
   },
-  "permissions": [
-    "storage"
-  ],
+  
+  "chrome_url_overrides": {
+    "newtab": "tab/index.html"
+  },
+
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+
+    }
+  },
+
   "icons": {
 
-  }
+  },
+  
+  "options_page": "options/options.html"
 }
